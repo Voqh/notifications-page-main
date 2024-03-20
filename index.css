@@ -1,0 +1,109 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+main{
+  margin: 10px;
+  padding: 10px;
+}
+a{
+  text-decoration: none;
+}
+p, .duration{
+  color:hsl(219, 12%, 42%);
+}
+img{
+  width: 32px;
+  height: auto;
+}
+.container{
+  display: flex;
+  align-items: flex-start;
+  padding: 10px;
+  margin-bottom:10px;
+  gap: 14px;
+}
+.container p{
+  margin-bottom: 5px;
+}
+.container1{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  padding: 5px;
+  
+}
+.unread-notifications{
+  background-color:hsl(211, 68%, 94%);
+  border: none;
+  border-radius: 6px;
+}
+.red-dot {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  background-color:hsl(1, 90%, 64%);
+  border-radius: 50%;
+  margin-left: 4px; 
+}
+.chess{
+  color:hsl(219, 85%, 26%);
+  font-weight: 600;
+}
+.name{
+  color:black;
+}
+.msg{
+  border: 1px solid hsla(224, 21%, 14%, 0.226);
+  padding: 10px;
+  margin: 10px;
+}
+.post{
+  color: hsl(219, 12%, 42%);
+  font-weight: 600;
+}
+.container6{
+  display: grid;
+  grid-template-columns: 1fr 3fr 2fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 1px;
+}
+.Kimberly-post-duration{
+  grid-column-start: 2;
+  grid-column-end: 4;
+}
+button{
+  border: none;
+  background-color: white;
+  color: hsl(219, 12%, 42%);
+  font-weight: 600;
+  font-size: 14px;
+}
+button:hover{
+  cursor: pointer;
+  color: hsl(219, 85%, 26%);
+}
+.msg:hover{
+  cursor: pointer;
+  background-color:hsl(211, 68%, 94%) ;
+}
+.name:hover{
+  cursor: pointer;
+  color: hsl(219, 85%, 26%);
+}
+.notifications-count{
+  color: hsl(0, 0%, 100%);
+  padding: 5px 10px;
+  margin: 5px;
+  background-color:hsl(219, 85%, 26%);
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+}
+@media( min-width:375px){
+  main{
+    max-width: 40vw;
+  }
+}

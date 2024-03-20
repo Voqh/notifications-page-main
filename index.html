@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link href="./assets/fonts/PlusJakartaSans-VariableFont_wght.ttf">
+  <title>Frontend Mentor | Notifications page</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+<link href="./index.css" rel="stylesheet">
+</head>
+<body>
+  <main>
+<div class="container1">
+ <h2>Notifications <span class="notifications-count">3</span> </h2> 
+ <p class="read-btn"><button>Mark all as read</button></p>
+</div>
+<div class="container2 container unread-notifications">
+  <img src="./assets/images/avatar-mark-webber.webp" alt="">
+  <div>
+    <p> <span class="name"><strong>Mark Webber</strong> </span>reacted to your recent post <a href="./" class="post">My first tournament today!</a>
+       <span class="red-dot"></span></p>
+    
+
+    <span class="duration">1m ago</span>
+  </div>
+</div>
+<div class="container3 container unread-notifications">
+  <img src="./assets/images/avatar-angela-gray.webp" alt="">
+  <div>
+    <p><span class="name"><strong>Angela Gray</strong> </span>followed you <span class="red-dot"></span></p>
+
+    <span class="duration">5m ago</span>
+  </div>
+</div>
+<div class="container4 container unread-notifications">
+  <img src="./assets/images/avatar-jacob-thompson.webp" alt="">
+  <div>
+    <p> <span class="name"><strong> Jacob Thompson </strong> </span>has joined your group <span class="chess">Chess Club</span> <span class="red-dot"></span></p>
+
+    <span class="duration">1 day ago</span>
+  </div>
+</div>
+<div class="container5 container">
+  <img src="./assets/images/avatar-rizky-hasanuddin.webp" alt="">
+  <div>
+    <p> <span class="name"><strong>Rizky Hasanuddin </strong></span>sent you a private message</p>
+    <span class="duration">5 days ago</span>
+    <p class="msg">Hello, thanks for setting up the Chess Club. I've been a member for a few weeks now and 
+    I'm already having lots of fun and improving my game.</p>
+  </div>
+</div>
+<div class="container6">
+  <span class="avator"><img src="./assets/images/avatar-kimberly-smith.webp" alt="">
+  </span>
+    <p class="p-content"><span class="name"><strong>Kimberly Smith </strong> </span>commented on your picture </p>
+    <span class="img-post">
+    <img src="./assets/images/image-chess.webp" alt=""></span>
+    <span class="Kimberly-post-duration">1 week ago</span>
+   
+</div>
+<div class="container7 container">
+  <img src="./assets/images/avatar-nathan-peterson.webp" alt="">
+  <div>
+    <p><span class="name"><strong>Nathan Peterson </strong></span>reacted to your recent post 
+      <a href="./" class="post">5 end-game strategies to increase your win rate</a></p>
+    <span class="duration">2 weeks ago</span>
+</div>
+</div>
+<div class="container8 container">
+  <img src="./assets/images/avatar-anna-kim.webp" alt="">
+  <div>
+    <p><span class="name"><strong>Anna Kim </strong></span>left the group <span class="chess">Chess Club</span></p>
+    <span class="duration">2 weeks ago</span>
+  </div>
+</div>
+</main>
+<script src="./index.js"></script>
+</body>
+</html>
